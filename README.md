@@ -3,6 +3,7 @@
 ![Doric: Design System Foundation in Swift](https://raw.githubusercontent.com/jayeshk/Doric/master/doric.png)
 
 [![Build Status](https://travis-ci.com/jayeshk/Doric.svg?branch=master)](https://travis-ci.com/jayeshk/Doric) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Doric.svg)](https://img.shields.io/cocoapods/v/Doric.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-red.svg?style=flat)](https://github.com/Carthage/Carthage) [![Platform](https://img.shields.io/cocoapods/p/Doric.svg?style=flat)](https://github.com/jayeshk/Doric)
+![Documentation](https://github.com/jayeshk/Doric/blob/master/docs/badge.svg)
 
 # **Doric: Design System Foundation**
 
@@ -30,28 +31,32 @@ Design System foundation written in Swift. Protocol oriented, type safe, scalabl
 - [x] UI Debugging helpers
 - [x] [API Document](https://jayeshk.github.io/Doric/usage.html) & [Usage Documentation](Documentation/Usage.md)
 
+## Sketch Plugin
+
+- See [DoricSnippet - BETA](https://github.com/jayeshk/DoricSnippet)
+- Generates Swift code snippets for Doric framework.
+
 ## Roadmap
 
 > *Not in specific orders to achieve it.*
 
-- [ ] Add debugging tools (Ruler etc.)
+- [ ] Add debugging tools (Ruler etc.) [In progress]
 - [ ] Expand framework to create more Styles
 - [ ] Colour processing utilities
-- [ ] Trait based layouts (UITraitCollection)
+- [ ] Trait based layouts (UITraitCollection) [In progress]
 - [ ] Accessibility for colour palettes
-- [ ] Sketch plugin to generate Styles
+- [x] Sketch plugin to generate palette. [Try here](https://github.com/jayeshk/DoricSnippet)
 
 ## [Usage Guide](https://jayeshk.github.io/Doric/usage.html)
-
+- See documentation
 ## Requirements
 
 - iOS 11.0+
-- Xcode 10.0+
-- Swift 4.2+
+- Xcode 10.2+
+- Swift 5
 
 ## Demo
-- Run demo project
-![Preview](https://raw.githubusercontent.com/jayeshk/Doric/master/demo-screenshot.png)
+![Preview](https://raw.githubusercontent.com/jayeshk/Doric/master/demo-screenshot.png) ![Preview](https://raw.githubusercontent.com/jayeshk/Doric/master/screens-preview.gif)
 
 ## Installation
 
@@ -113,7 +118,7 @@ If you can integrate project manually as below using git submodule
 Doric is open to contribute, see contribution notes.
   - If you **want to contribute**, submit a pull request.
   - If you **found a bug**, open an issue.
-  - If you need **help with a feature or need to discuss best practices** please see **usage document** , still anything to discuss contact me.
+  - If you need **help with a feature or need to discuss best practices** please see **usage document** , still anything to discuss contact me (doricdesignsystem@gmail.com).
 
 ## FAQ
 
